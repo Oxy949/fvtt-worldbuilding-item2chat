@@ -46,7 +46,7 @@ Hooks.on("ready", () => {
   
 Hooks.on("renderChatMessage", (message, html, data) => {
     let speaker = ChatMessage.getSpeaker({ actor: message.author.character });
-    console.log(message);
+    // console.log(message);
   
     // Если нет данных о спикере, выходим
     if (!speaker)
@@ -66,14 +66,14 @@ Hooks.on("renderChatMessage", (message, html, data) => {
   
     if (actorName !== "")
     {
-    // Заменяем имя персонажа или выводим имя игрока
-    html.find(".message-sender").text(actorName);
+      // Заменяем имя персонажа или выводим имя игрока
+      html.find(".message-sender").text(actorName);
     }
     if (avatar !== "")
       {
-    // Добавляем аватарку в чат
-    const img = $(`<img class="chat-avatar" src="${avatar}" width="36" height="36" style="border-radius: 50%;">`);
-    html.find(".message-sender").prepend(img);
-    html.find('.message-sender').css('margin-bottom', '6px');
+      // Добавляем аватарку в чат
+      const img = $(`<img class="chat-avatar" src="${avatar}" width="36" height="36" style="border-radius: 50%;">`);
+      html.find(".message-sender").prepend(img);
+      html.find('.message-sender').css('margin-bottom', '6px');
       }
 });
