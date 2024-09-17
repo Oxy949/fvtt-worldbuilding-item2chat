@@ -1,20 +1,21 @@
 {
-  "id": "module",
-  "title": "New Module",
+  "id": "fvtt-worldbuilding-item2chat",
+  "title": "Worldbuilding Addon - Item 2 Chat",
   "description": "",
   "version": "#{VERSION}#",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
   "compatibility": {
-    "minimum": 10,
-    "verified": 10,
-    "maximum": 11
+    "minimum": 12,
+    "verified": 12
   },
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "Oxy949",
+      "email": "oxy949@gmail.com",
+      "url": "https://boosty.to/oxy949",
+      "discord": "oxy949",
+      "flags": {}
     }
   ],
   "relationships": {
