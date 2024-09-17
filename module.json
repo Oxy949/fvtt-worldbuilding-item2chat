@@ -19,7 +19,13 @@
     }
   ],
   "relationships": {
-    "systems": [],
+    "systems": [
+      {
+        "id": "worldbuilding",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
     "requires": []
   },
   "esmodules": [
