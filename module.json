@@ -1,31 +1,26 @@
 {
   "id": "fvtt-worldbuilding-item2chat",
-  "title": "Worldbuilding Addon - Item 2 Chat",
-  "description": "",
+  "title": "Worldbuilding Addon - Item to Chat",
+  "description": "Add button to send item name to chat",
   "version": "#{VERSION}#",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
   "compatibility": {
     "minimum": 12,
-    "verified": 12
+    "verified": 12,
+    "maximum": 12
   },
   "authors": [
-    {
-      "name": "Oxy949",
-      "email": "oxy949@gmail.com",
-      "url": "https://boosty.to/oxy949",
-      "discord": "oxy949",
-      "flags": {}
-    }
+      {
+          "name": "Oxy949",
+          "email": "oxy949@gmail.com",
+          "url": "https://boosty.to/oxy949",
+          "discord": "oxy949",
+          "flags": {}
+      }
   ],
   "relationships": {
-    "systems": [
-      {
-        "id": "worldbuilding",
-        "type": "system",
-        "compatibility": {}
-      }
-    ],
+    "systems": [],
     "requires": []
   },
   "esmodules": [
